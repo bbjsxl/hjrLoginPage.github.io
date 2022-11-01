@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<style type="text/css">
+  #box {
+    width: 1520px;
+    height: 730px;
+    position: absolute;
+    background-image: url("bj.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+
+  #box1 {
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+    border: 2px solid red;
+    background-color: white;
+    margin-top: 200px;
+    display: block;
+
+
+  }
+
+  #abox1 {
+    width: 500px;
+    height: 350px;
+    margin: 0 auto;
+    border: 2px solid red;
+    background-color: white;
+    margin-top: 200px;
+    display: none;
+
+
+  }
+
+  #box2 {
+    margin: 0 auto;
+    margin-top: 26px;
+    width: 480px;
+    height: 40px;
+    border-radius: 12;
+    /* border: 2px solid black; */
+  }
+
+  #date {
+    width: 80px;
+    height: 40px;
+    color: red;
+    border-radius: 12;
+  }
+
+  #date1 {
+    width: 80px;
+    height: 40px;
+    color: red;
+    border-radius: 12;
+  }
+
+  #date2 {
+    width: 140px;
+    height: 40px;
+    color: blue;
+    border-radius: 12;
+  }
+
+  #date3 {
+    width: 140px;
+    height: 40px;
+    color: blue;
+    border-radius: 12;
+  }
+
+  #box3 {
+    width: 200px;
+    height: 40px;
+    margin: 0 auto;
+  }
+
+  #zhi {
+    color: black;
+    font-size: x-large;
+  }
+
+  #inp {
+    width: 380px;
+    height: 34px;
+  }
+
+  #inp1 {
+    width: 380px;
+    height: 34px;
+  }
+
+  #ainp {
+    width: 380px;
+    height: 34px;
+  }
+
+  #ainp1 {
+    width: 380px;
+    height: 34px;
+  }
+
+  #ainp2 {
+    width: 380px;
+    height: 34px;
+  }
+
+  #box4 {
+    width: 300px;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+
+
+  #abox2 {
+    margin: 0 auto;
+    margin-top: 26px;
+    width: 480px;
+    height: 40px;
+    border-radius: 12;
+    /* border: 2px solid black; */
+  }
+
+  #adate {
+    width: 80px;
+    height: 40px;
+    color: red;
+    border-radius: 12;
+  }
+
+  #adate1 {
+    width: 80px;
+    height: 40px;
+    color: red;
+    border-radius: 12;
+  }
+
+  #adate2 {
+    width: 140px;
+    height: 40px;
+    color: blue;
+    border-radius: 12;
+  }
+
+  #adate3 {
+    width: 140px;
+    height: 40px;
+    color: blue;
+    border-radius: 12;
+  }
+
+  #abox3 {
+    width: 200px;
+    height: 40px;
+    margin: 0 auto;
+  }
+
+  #azhi {
+    color: black;
+    font-size: x-large;
+  }
+
+  #ainp {
+    width: 380px;
+    height: 34px;
+  }
+
+  #abox4 {
+    width: 300px;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+</style>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Note</title>
+</head>
+
+<body>
+  <div id="box">
+    <div id="box1">
+      <div id="box3">
+        <p id="zhi"><strong>欢迎登录星云平台</strong></p>
+      </div>
+      <div id="box2"> <button id="date">账户</button>
+        <input id="inp" name="">
+      </div>
+      <div id="box2"> <button id="date1">密码</button>
+        <input id="inp1" name="">
+      </div>
+      <div id="box4"><button id="date2">立即登录</button>
+        <button id="date3">立即注册</button>
+      </div>
+    </div>
+
+    <div id="abox1">
+      <div id="abox3">
+        <p id="azhi"><strong>欢迎注册星云平台</strong></p>
+      </div>
+      <div id="abox2"> <button id="adate">用户名</button>
+        <input id="ainp" name="">
+      </div>
+      <div id="abox2"> <button id="adate">用户账户</button>
+        <input id="ainp1" name="">
+      </div>
+      <div id="abox2"> <button id="adate1">设置密码</button>
+        <input id="ainp2" name="">
+      </div>
+      <div id="abox4"><button id="adate2">返回</button>
+        <button id="adate3">注册</button>
+      </div>
+    </div>
+
+
+
+  </div>
+  <script>
+    var box1o = document.getElementById("box1");
+    var dateo = document.getElementById("date");
+    var date1o = document.getElementById("date1");
+    var date2o = document.getElementById("date2");
+    var date3o = document.getElementById("date3");
+    var abox1o = document.getElementById("abox1");
+    var adateo = document.getElementById("adate");
+    var adate1o = document.getElementById("adate1");
+    var adate2o = document.getElementById("adate2");
+    var adate3o = document.getElementById("adate3");
+    var inpo = document.getElementById("inp");
+    var inp1o = document.getElementById("inp1");
+    var ainpo = document.getElementById("ainp");
+    var ainp1o = document.getElementById("ainp1");
+    var ainp2o = document.getElementById("ainp2");
+
+
+
+    date3o.onclick = function () {
+      box1o.style.display = "none";
+      abox1o.style.display = "block";
+
+    }
+
+    adate2o.onclick = function () {
+      box1o.style.display = "block";
+      abox1o.style.display = "none";
+    }
+
+    fetch('https://db-api.amarea.cn/users')
+      .then(response => response.json())
+      .then(
+        data => {
+          console.log(data)
+          date2o.onclick = function () {
+            var s = 2;
+            for (var i = 0; i < data.length; i++) {
+              if (data[i].id == inpo.value) {
+                if (data[i].password == inp1o.value) {
+                  alert("欢迎"+inpo.value+ "登录成功")
+                  s = 1;
+                }
+                else {
+                  alert("密码错误")
+                  s = 1;
+                }
+              }
+            }
+            if (s == 2) {
+              alert("请先注册")
+            }
+          }
+          adate3o.onclick = function () {
+            box1o.style.display = "block";
+            abox1o.style.display = "none";
+             var t = 1;
+
+            for (var i = 0; i < data.length; i++) {
+              if (data[i].id == ainp1o.value) {
+                alert("账户已注册")
+                  t = 2;break
+               }
+               else if(ainp1o.value==""){
+                alert("请输入您要注册的账户")
+                t=2
+                break
+               }
+             }
+             if(t==1){
+              fetch('https://db-api.amarea.cn/users',{
+                method:'POST',
+                headers:{
+                  'Accept':'application/json',
+                  'Content-Type':'application/json'
+                },
+                body: JSON.stringify({
+                  'id':ainp1o.value,
+                  'name':ainp.value,
+                  'password':ainp2o.value,
+                })
+              })
+              .then((response)=>response.json())
+              .then((response)=>{
+                console.log(response)
+                alert("注册成功");
+               
+              })
+             }
+           
+
+
+          }
+
+        }
+
+      )
+      .catch(error => console.log(error));
+  </script>
+
+</body>
+
+</html>
